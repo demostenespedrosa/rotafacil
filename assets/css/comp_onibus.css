@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family:"Poppins", sans-serif;
+    background: #ccc;
+  }
+  
+  .container {
+    background: white;
+    border-radius: 30px 30px ;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .rota {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .bus-icon {
+    width: 40px;
+  }
+  
+  .texto {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .texto strong {
+    font-size: 16px;
+  }
+  
+ 
+  .horario{
+    font-size: 12px;
+    color: black;
+  }
+
+  .tempo{
+    font-size: 12px;
+    color: #18B376;
+    
+  }
+  
+  
+  
+  
