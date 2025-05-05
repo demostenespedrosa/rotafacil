@@ -55,8 +55,8 @@
     background-color: #2D3134;
     outline: none;
     border-radius: 15px;
-}
 
+}
 
 .submit-area{
     display: flex;
@@ -78,7 +78,8 @@
     border-radius: 15px;
     font-size: 20px;
     color: #fff;
-    font-weight: 400;
+
+    border: none;
 }
 
 
