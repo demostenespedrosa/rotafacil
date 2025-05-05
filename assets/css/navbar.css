@@ -1,0 +1,7 @@
+.btn[data-bs-toggle="dropdown"] {
+    transition: transform 0.3s ease;
+  }
+
+  .btn[data-bs-toggle="dropdown"].show {
+    transform: rotate(180deg);
+  }
