@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RotaFácil - Seu Ônibus em Tempo Real</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/newbus.jpeg" alt="RotaFácil Logo">
+        </div>
+        <nav class="nav">
+            <a href="#funcionalidades">Funcionalidades</a>
+            <a href="#como-funciona">Como Funciona</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img class="bgHero" src="images/modelbus.jpg" alt="">
+        <div class="bgBlack"></div>
+        <div class="hero-content">
+            <h1>Seu ônibus na palma da mão</h1>
+            <p>Localize ônibus em tempo real e compre passagens com QR Code. Rápido, fácil e seguro!</p>
+            <a href="#contato" class="btn">Quero Conhecer</a>
+        </div>
+    </section>
+    
+
+    <section id="funcionalidades" class="features">
+        <h2>Funcionalidades</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <h3>📍 Localização em Tempo Real</h3>
+                <p>Acompanhe o seu ônibus em tempo real diretamente no seu celular.</p>
+            </div>
+            <div class="card">
+                <h3>🏃‍♂️ Passagem Digital</h3>
+                <p>Compre e valide suas passagens usando QR Code sem fila e sem papel.</p>
+            </div>
+            <div class="card">
+                <h3>📲 Notificações Inteligentes</h3>
+                <p>Receba alertas sobre a chegada do ônibus e evite atrasos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-funciona" class="how-it-works">
+        <h2>Como Funciona</h2>
+        <p>É muito simples! Baixe o app, escolha sua linha de ônibus, acompanhe o trajeto e compre sua passagem diretamente pelo celular.</p>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Fale Conosco</h2>
+        <p class="contact-text">Quer saber mais ou trazer o RotaFácil para sua cidade? Entre em contato!</p>
+        <a href="login.html" class="btn">Acessar Sistema</a>
+    </section>
+    
+
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 RotaFácil. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        ScrollReveal().reveal('.hero-content', { delay: 200, origin: 'bottom', distance: '50px', duration: 1000 });
+        ScrollReveal().reveal('.feature-cards .card', { interval: 200, origin: 'bottom', distance: '50px', duration: 800 });
+        ScrollReveal().reveal('.how-it-works', { delay: 300, origin: 'left', distance: '50px', duration: 1000 });
+        ScrollReveal().reveal('.contact', { delay: 400, origin: 'right', distance: '50px', duration: 1000 });
+    </script>
+</body>
+</html>
