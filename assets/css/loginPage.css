@@ -11,51 +11,55 @@
     display: grid;
     place-items: center;
 
-    padding-inline: 16px;   
+    padding-inline: 0.833vw;   
 
     width: 100vw;
     height: 100dvh;
-    background: url("/public/map.jpg") no-repeat center/cover;
+    background: url("../img/map.jpg") no-repeat center/cover;
 }
 .container-login{
-    padding-inline: 35px;
-    border-radius: 45px;
-    width: 408px;
-    height: 760px;
+    padding-inline: 1.823vw;
+    border-radius: 2.344vw;
+    width: 21.25vw;
+    height: 39.583vw;
     background-color: #F5F6F7;
 }
 .container-login h1{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.083vw;
 
-    margin-top: 35px;
+    margin-top: 1.823vw;
 }
 
 
 .form-login .password-info{
-    padding-top: 20px;
+    padding-top: 1.042vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-login .password-info .password,
 .form-login .name-info .name{
-    font-size: 24px;
+    font-size: 1.25vw;
 }
 
 
 .form-login .name-info{
-    padding-top: 51px;
+    padding-top: 2.656vw;
     display: flex;
     flex-direction: column;
 }
 
 .form-login .password-info input,
 .form-login .name-info input{
-    width: 337px;
-    height: 34px;
+    padding-left: 1vw;
+    color: #F5F6F7;
+    width: 17.552vw;
+    height: 1.771vw;
     background-color: #2D3134;
     outline: none;
-    border-radius: 15px;
-
+    border-radius: 0.781vw;
+    border: none;
 }
 
 .submit-area{
@@ -65,18 +69,19 @@
 }
 
 .submit-area a{
-    margin-top: 56px;
-    font-size: 12px;
+    margin-top: 2.917vw;
+    font-size: 0.625vw;
     color: #2D3134;
 }
 
 .btn-submit{
-    margin-top: 34px;
-    width: 176px;
-    height: 40px;
+    cursor: pointer;
+    margin-top: 1.771vw;
+    width: 9.167vw;
+    height: 2.083vw;
     background-color: #2D3134;
-    border-radius: 15px;
-    font-size: 20px;
+    border-radius: 0.781vw;
+    font-size: 1.042vw;
     color: #fff;
 
     border: none;
@@ -84,7 +89,7 @@
 
 
 .create-account{
-    margin-top: 72px;
+    margin-top: 3.75vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,47 +97,43 @@
 
 .create-account span,
 .create-account a{
-    font-size: 12px;
+    font-size: 0.625vw;
     color: #2D3134;
 }
 
 
 .division{
-    margin-top: 50px;
+    margin-top: 2.604vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.division span{
+    font-size: 0.625vw;
+}
+
 .division .line{
-    width: 134px;
-    height: 1.4px;
+    width: 6.979vw;
+    height: 0.052vw;
     background-color: #2D3134;
 }
 
 
 
-
-
-
-
-
+.white,
 .black{
     width: 100vw;
     height: 0dvh;
     position: fixed;
     bottom: 0vw;
     z-index: 999;
-    background-color: #212121;
-    border-radius: 45px 45px 0 0;
+    border-radius: 2.344vw 2.344vw 0 0;
 }
 
+.black{
+    background-color: #212121;
+}
 .white{
-    width: 100vw;
-    height: 0dvh;
-    position: fixed;
-    bottom: 0vw;
-    z-index: 999;
     background-color: #F5F6F7;
-    border-radius: 45px 45px 0 0;
 }
