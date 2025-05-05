@@ -1,0 +1,37 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5.052vw;
+    border-bottom: 0.01vw solid #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 7vw;
+}
+
+.loginButtons button:first-child{
+    margin-right: 1.094vw;
+    background-color: transparent;
+    border: 0.01vw solid #000;
+}
+
+.loginButtons button:last-child{
+    background-color: #193588;
+    color: #fff;
+}
+
+.loginButtons button{
+    cursor: pointer;
+    width: 7.292vw;
+    height: 2.383vw;
+    border-radius: 1.563vw;
+    border: none;
+    font-size: 0.677vw;
+}
+

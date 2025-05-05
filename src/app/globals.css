@@ -3,4 +3,14 @@
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: var(--font-montserrat);
+}
+
+nav,
+section{
+  padding-inline: 0.677vw;
+}
+
+span.color{
+  color: #0033C8;
 }
